@@ -81,6 +81,7 @@ call s:hi ("DiffAdd",		"",					s:diff_add,		"none")
 call s:hi ("DiffChange",	"",					s:diff_change,	"none")
 call s:hi ("DiffDelete",	"",					s:diff_delete,	"none")
 call s:hi ("FoldColumn",	s:base3,			s:base6,		"none")
+call s:hi ("Function",		s:blue_text,		s:blue_bg,		"none")
 call s:hi ("Ignore",		s:base4,			s:base7,		"none")
 call s:hi ("MatchParen",	s:accent,			s:base7,		"underline")
 call s:hi ("ModeMsg",		s:teal_text,		s:teal_bg,		"bold")
@@ -116,7 +117,7 @@ hi! link ErrorMsg		Error
 hi! link Exception		Statement
 hi! link Float			Constant
 hi! link Folded			Normal
-hi! link Function		Identifier
+hi! link Function		Function
 hi! link Identifier		Normal
 hi! link IncSearch		Search
 hi! link Include		PreProc
